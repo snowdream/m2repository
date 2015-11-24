@@ -1,7 +1,7 @@
 # m2repository
 
 ##Introduction
-
+Mirror Maven repository for Support Libraries and Google Libraries.
 
 ### Gradle
 Add to your build.gradle:
@@ -11,7 +11,7 @@ Add to your build.gradle:
         mavenLocal()
         jcenter()
         mavenCentral()
-        maven { url "https://github.com/snowdream/m2repository/raw/master/" }
+        maven { url "https://raw.githubusercontent.com/snowdream/m2repository/master/" }
     }
 ```
 
